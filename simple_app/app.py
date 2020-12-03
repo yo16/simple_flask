@@ -7,4 +7,5 @@ def default():
     return render_template('default.html')
 
 if __name__=='__main__':
-    app.run()
+    app.config.from_object('config')
+    app.run(debug=app.config['DEBUG'])
