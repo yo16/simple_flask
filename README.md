@@ -7,6 +7,7 @@ DockerContainerを使って作ったので、`.dockercontainer`というフォ�
 ## これを作った理由
 理由は２つあります。
 - １つは、VS CodeのDocker-Containersを試したかったということです。
+  - `.dockercontainer`以外をコピーすれば、超絶シンプルなFlaskアプリケーションです。HelloWorld級。
 - もう１つは、通常使う大きなアプリを作る上で、「基本はこれとして、大きなアプリは何が違うか」という比較対象として持っておきたかったことです。
   - 参考：[Explorer Flask](http://exploreflask.com/en/latest/index.html)
 
